@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- appel du CSS de font-awesome pour les icones -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal|Open+Sans">
+	<link rel="stylesheet" href="css/normalize.css" />
+	<!-- On charge toujours notre CSS en dernier, nous verrons plus tard pourquoi -->
+	<link rel="stylesheet" href="css/style_product.css" />
+	<title>Module 12 - cup of</title>
+</head>
+<body>
+	<!--HEADER-->
+	<header>
+		<div class="promo"> Livraison offerte à partir de 65$ d'achat<img class="vignette" src="img/ribbon.svg" alt="Meilleur"></div>
+		<div class="logo">
+			<img id="logo" src="img/logo.png" alt="Fish & chips" />
+			<p id="panier">Mon panier</p>
+		</div>
+		<nav>
+			<a href="#">Thé</a>
+			<a href="#">Grand cru</a>
+			<a href="#">Accessoire</a>
+			<a href="#">Epicerie</a>
+			<a href="#">Notre histoire</a>
+		</nav>
+	</header>
+	
+	<!--MAIN CONTENT-->
+	<main class="container">
+		<section id="product">
+			<article>
+                <section class="haut">
+                    <article class="clear">
+                        <h4>Blue of London</h4>
+                        <p>Thé noir à la bergamote</p>
+                        <p>Réf 133742</p> 
+                    </article>
+                    <article class="clear">
+                        <span class="rose"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        <p>Voir les avis des clients</p>  
+					</article>
+					<article class="clear">
+						<img src="img/product/product1_big.jpg" alt="The1">
+					</article>
+                    <article class="clear">
+                        <select name="liste" id="liste">
+                        <option value="internet">Pochette de 100g</option>
+                        <option value="ami">Pochette de 50g</option>
+                        </select>
+                        <p class="prix">5,50$</p>
+                        <p><a class="cta">Ajouter au panier</a></p>
+                        <a><span><i lass="fas fa-heart"></i></span> Ajouter à ma liste d'envie</a>
+                    </article>
+                </section>
+            </article>
+            <article>
+                <section id="bas">
+                    <article><h2>Thé noir</h2>
+                        <p>Le thé noir, que les chinois appellent thé rouge en réfénrece à la couleur
+                            cuivrée de son infusion, est un thé complètement oxydé. La fabrication du thé noir se fait en cinq étapes : le flétrissage, le roulage, l'oxydation, la torréfaction et le triage.
+                            cette dernière opération permet de différencier les différents grades </p>	
+                    </article>
+                </section>
+			</article>
+        </section>
+	</main>
+	<footer>		
+		<div class="line">
+				<ul>
+					<li><i class="fas fa-lock"></i><br><a href="#">Paiement sécurisé</a></li>
+					<li><i class="fas fa-truck"></i><br><a href="#">Livraison offertet</a></li>
+					<li><i class="fas fa-credit-card"></i><br><a href="#">Carte de fidélité</a></li>
+					<li><i class="fas fa-phone"></i><br><a href="#">Service client</a></li>
+					<li><i class="fas fa-check-square"></i><br><a href="#">Garantie qualité</a></li>
+				</ul>
+		</div>
+		<div>
+			<ul class="menubas">
+				<li><h4><a href="#">Cup of thea</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+				<li><h4><a href="#">Commander en ligne</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+				<li><h4><a href="#">Suivez-nous !</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

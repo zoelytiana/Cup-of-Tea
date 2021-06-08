@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<!-- appel du CSS de font-awesome pour les icones -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal|Open+Sans">
+
+	<link rel="stylesheet" href="css/normalize.css" />
+	<!-- On charge toujours notre CSS en dernier, nous verrons plus tard pourquoi -->
+	<link rel="stylesheet" href="css/style_home.css" />
+	<!--Slide-->
+	<!-- Place somewhere in the <head> of your document -->
+		<link rel="stylesheet" href="js/js/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/js/jquery.flexslider.js"></script>
+		
+		<!-- Place in the <head>, after the three links -->
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			$('.flexslider').flexslider();
+			});
+		</script>
+
+	<title>Module 12 - cup of Tea</title>
+</head>
+<body>
+	<!--HEADER-->
+	<header>
+		<div class="promo"> Livraison offerte à partir de 65$ d'achat<img class="vignette" src="img/ribbon.svg" alt="Meilleur"></div>
+		<div class="logo">
+			<img id="logo" src="img/logo.png" alt="Fish & chips" />
+			<p id="panier">Mon panier<i class="fas fa-shopping-cart"></i><span class="prix">42,00$</span></p>
+		</div>
+		<nav>
+			<a href="#">Thé</a>
+			<a href="#">Grand cru</a>
+			<a href="#">Accessoire</a>
+			<a href="#">Epicerie</a>
+			<a href="#">Notre histoire</a>
+		</nav>
+	</header>
+	<!--MAIN CONTENT-->
+	<main class="container">
+		<section id="presentation">
+			<h1>C'est Noël profitez en</h1>
+			<article>
+				<img class="Offre"  src="img/offre-noel.jpg" alt="Offre">
+			</article>
+			<article>
+						<!-- Place somewhere in the <body> of your page -->
+						<div class="flexslider">
+							<ul class="slides">
+							<li>
+								<img src="img/slider/1.jpg" />
+							</li>
+							<li>
+								<img src="img/slider/2.jpg" />
+							</li>
+							</ul>
+						</div>
+			</article>
+		</section>
+
+		<div class="choix"><h2>Choisissez votre thé</h2></div>
+		<section class="choix">	
+			<article>
+				<img src="img/tea/1.jpg" />
+				<h4>Thé noir</h4>
+			</article>
+			<article>
+				<img src="img/tea/2.jpg" />
+				<h4>Thé noir</h4>
+			</article>
+			<article>
+				<img src="img/tea/3.jpg" />
+				<h4>Thé noir</h4>
+			</article>
+			<article>
+				<img src="img/tea/4.jpg" />
+				<h4>Thé noir</h4>
+			</article>
+			<article>
+				<img src="img/tea/5.jpg" />
+				<h4>Thé noir</h4>
+			</article>
+		</section><!--
+
+	 --><aside>
+			<article>
+				<h2>Notre nouveauté</h2>
+				<img src="img/product/product1.jpg">
+				<h4>Lorem upsum</h4>
+				<p>Huic Arabia est conserta, ex alio latere Nabataeis contigua opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium.</p>
+			</article>
+			<article>
+				<h2>Notre best seller</h2>
+				<img src="img/product/product2.jpg">
+				<h4>Dolor sit</h4>
+				<p>Huic Arabia est conserta, ex alio latere Nabataeis contigua opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium.</p>
+			</article>
+			<article>
+				<h2>Notre coup de coeur</h2>
+				<img src="img/product/product3.jpg">
+				<h4>Amet</h4>
+				<p>Huic Arabia est conserta, ex alio latere Nabataeis contigua opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium.</p>
+			</article>
+		</aside>
+	</main>
+	<footer>		
+		<div class="line">
+				<ul>
+					<li><i class="fas fa-lock"></i><br><a href="#">Paiement sécurisé</a></li>
+					<li><i class="fas fa-truck"></i><br><a href="#">Livraison offertet</a></li>
+					<li><i class="fas fa-credit-card"></i><br><a href="#">Carte de fidélité</a></li>
+					<li><i class="fas fa-phone"></i><br><a href="#">Service client</a></li>
+					<li><i class="fas fa-check-square"></i><br><a href="#">Garantie qualité</a></li>
+				</ul>
+		</div>
+		<div>
+			<ul class="menubas">
+				<li><h4><a href="#">Cup of thea</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+				<li><h4><a href="#">commander en ligne</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+				<li><h4><a href="#">Suivez-nous !</a></h4><p>Notre histoire</p><p>Notre botique</p><p>Le thé de a à Z</p><p>Espace client</p></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
